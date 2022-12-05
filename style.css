@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    background: black;
+    color: #222;
+
+
+}
+
+h2{
+    font-size: 3rem;
+    padding: 50px;
+    color: lightsteelblue;
+    animation: blink 1s linear infinite;
+    text-shadow: 5px 5px 6px orangered;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: .5;
+    }
+}
